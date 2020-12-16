@@ -1,13 +1,11 @@
 def cambio_Moneda(moneda, valor_dolar, selct):
     if select == 1:
             moneda = float(moneda)
-            valor_dolar = 3425.84
             dolares = moneda * valor_dolar
             dolares = round(dolares, 2)
             print(f'Los ${moneda} dolares son {dolares} en tu moneda ')
     elif select == 2:
             moneda = float(moneda)
-            valor_dolar = 3425.84
             dolares = moneda / valor_dolar
             dolares = round(dolares, 2)
             print(f'En tu moneda $ {moneda} esta cantidad son ${dolares} dolares')
