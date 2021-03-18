@@ -1,4 +1,8 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "/bin/python3.9"
+    "python.pythonPath": "/bin/python3.9",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true
 }
